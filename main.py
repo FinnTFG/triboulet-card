@@ -46,3 +46,5 @@ count_values = sorted(counts.values(), reverse=True)
 matches = Counter(count_values)
 match_values = sorted(matches.values(), reverse=True)
 print(match_values)
+
+num_diamond = Counter(card["diamonds"] for card in playedCards)
