@@ -1,3 +1,5 @@
+import main
+
 jokerMult = 0
 
 joker = jokerMult += 4
